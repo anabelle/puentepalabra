@@ -1,0 +1,181 @@
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fd8c02;
+}
+
+body {
+	font-family: 'Inconsolata', monospace;
+	text-align: center;
+}
+
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	background-color: gray;
+	color: white;
+	font-size: 1.8em;
+	font-weight: bold;
+	padding: 1em 0 0.8em;
+	vertical-align: middle;
+}
+
+	footer a {
+		position: relative;
+		vertical-align: bottom;
+	}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
+	font-size: 3.5em;
+	margin: 0.1em 0;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+
+	h1:before , h1:after {
+		background-image: url(../img/mano.svg);
+		content: "";
+		display: inline-block;
+		height: 100px;
+		margin: 0.25em;
+		width: 100px;
+		vertical-align: middle;
+	}
+
+	h1:before {
+		-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+	}
+
+ul {
+	padding: 0; 
+	list-style-type: none;
+}
+
+	li {
+		display: inline-block;
+		padding: 0 20px;
+	}
+
+.persona {
+	background-image: url( http://placehold.it/90x90 );
+	background-size: 100% 100%;
+	border-radius: 50%;
+	display: inline-block;
+	-moz-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+	-o-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+	-webkit-filter: grayscale(100%);
+	filter: gray;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+ 	height: 90px;
+	width: 90px;
+}
+
+.persona:hover {
+	background-color: #fd8c02;
+	background-image: url( http://placehold.it/90x90?text=OVER );
+	-moz-filter: none;
+	-o-filter: none;
+	-webkit-filter: none;
+	filter: none;
+	filter: none;
+}
+
+	#carlos {
+		background-image: url( ../img/autores/Carlos_a.jpg );
+	}
+	a:hover #carlos {
+			background-image: url( ../img/autores/Carlos_b.jpg );
+		}
+
+	#leonardo {
+		background-image: url( ../img/autores/Leonardo_a.jpg );
+	}
+		a:hover #leonardo {
+			background-image: url( ../img/autores/Leonardo_b.jpg );
+		}
+	#marlon {
+		background-image: url( ../img/autores/Marlon_a.jpg );
+	}
+		a:hover #marlon {
+			background-image: url( ../img/autores/Marlon_b.jpg );
+		}
+	#ricardo {
+		background-image: url( ../img/autores/Ricardo_a.jpg );
+	}
+		a:hover #ricardo {
+			background-image: url( ../img/autores/Ricardo_b.jpg );
+		}
+
+#creditos {
+	margin-bottom: 2.7em;
+}
+
+#creditos img {
+	border-radius: 50%;
+}
+
+#cta a {
+	background: #fd8c02;
+	color: black;
+	display: block;
+	margin-bottom: 2em;
+	padding: 21px;
+}
+
+	#cta a:hover {
+		color: white;
+	}
+
+#cta h2 {
+	margin: 0;
+}
+
+#descripcion {
+	font-size: 1.2em;
+	line-height: 1.25em;
+    margin: 0 auto 3em;
+	max-width: 50%;
+	text-align: center;
+}
+
+#imagenes {
+	background-color: black;
+	background-image: url( ../img/ajax-loader.gif );
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+#imagenes span {
+	background: transparent;
+	border: 2px solid transparent;
+	border-bottom: none;
+	border-top: 1px solid transparent;
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	overflow: hidden;
+}
+
+#imagenes span, #imagenes div {
+	margin: 0;
+	padding: 0;
+}
+
+#ocho {
+	top: -10px;
+}
